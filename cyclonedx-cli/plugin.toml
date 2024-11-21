@@ -1,0 +1,21 @@
+name = "cyclonedx-cli"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/CycloneDX/cyclonedx-cli"
+
+[platform.linux]
+download-file = "cyclonedx-linux-{arch}"
+
+[platform.macos]
+download-file = "cyclonedx-osx-{arch}"
+
+[platform.windows]
+download-file = "cyclonedx-win-{arch}"
+
+[install]
+download-url = "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v{version}/{download_file}"
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "x64"

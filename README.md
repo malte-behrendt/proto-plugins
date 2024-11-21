@@ -7,7 +7,8 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 | Name | Category | Description | Plugin Status | Install |
 | ---- | -------- | ----------- | ------------- | ---------- |
 | [trivy](https://github.com/aquasecurity/trivy) | tool | Comprehensive and versatile security scanner | Alpha | proto plugin add trivy [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml) |
-| [syft](https://github.com/anchore/syft) | tool | Generator for Software Bill of Materials (SBOM) from container images and filesystems | Alpha | proto plugin add syft [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml)  |
+| [syft](https://github.com/anchore/syft) | tool | Generator for Software Bill of Materials (SBOM) from container images and filesystems | Alpha | proto plugin add syft [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml) |
+| [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli) | tool | Tool for SBOM analysis, merging, diffs and format conversions | Alpha | proto plugin add cyclonedx-cli [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/cyclonedx-cli/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/cyclonedx-cli/plugin.toml) |
 
 ## Contributing
 
