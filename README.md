@@ -7,6 +7,7 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 | Name | Category | Description | Plugin Status | Install |
 | ---- | -------- | ----------- | ------------- | ---------- |
 | [trivy](https://github.com/aquasecurity/trivy) | tool | Comprehensive and versatile security scanner | Alpha | proto plugin add trivy [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml) |
+| [syft](https://github.com/anchore/syft) | tool | Generator for Software Bill of Materials (SBOM) from container images and filesystems | Alpha | proto plugin add syft [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/syft/plugin.toml)  |
 
 ## Contributing
 
@@ -19,4 +20,4 @@ PRs with new plugins are welcome!
 3. Manually (for now) test it:
    1. `proto plugin add <PLUGIN_NAME> source:./plugin.toml`
    2. `proto list-remote <PLUGIN_NAME>`
-   3. `proto install trivy latest`
+   3. `proto install <PLUGIN_NAME> latest`
