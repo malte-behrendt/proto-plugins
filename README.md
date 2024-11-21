@@ -4,9 +4,9 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 
 ## Plugins
 
-| Name | Category | Description | Plugin Status | Plugin URL |
+| Name | Category | Description | Plugin Status | Install |
 | ---- | -------- | ----------- | ------------- | ---------- |
-| [trivy](https://github.com/aquasecurity/trivy) | tool | Comprehensive and versatile security scanner | Alpha | [](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml) |
+| [trivy](https://github.com/aquasecurity/trivy) | tool | Comprehensive and versatile security scanner | Alpha | proto plugin add trivy [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/trivy/plugin.toml) |
 
 ## Contributing
 
