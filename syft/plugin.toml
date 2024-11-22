@@ -6,12 +6,12 @@ git-url = "https://github.com/anchore/syft"
 
 [platform.linux]
 download-file = "syft_{version}_linux_{arch}.tar.gz"
-checksum-url = "syft_{version}_checksums.txt"
+checksum-file = "syft_{version}_checksums.txt"
 exe-path = "syft"
 
 [platform.macos]
 download-file = "syft_{version}_darwin_{arch}.tar.gz"
-checksum-url = "syft_{version}_checksums.txt"
+checksum-file = "syft_{version}_checksums.txt"
 exe-path = "syft"
 
 [install]

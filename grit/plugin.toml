@@ -1,0 +1,26 @@
+name = "grit"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/getgrit/gritql"
+
+[platform.linux]
+download-file = "grit-{arch}-unknown-linux-gnu.tar.gz"
+checksum-file = "grit-{arch}-unknown-linux-gnu.tar.gz.sha256"
+archive-prefix = "grit-{arch}-unknown-linux-gnu"
+exe-path = "grit"
+
+[platform.macos]
+download-file = "grit-{arch}-apple-darwin.tar.gz"
+checksum-file = "grit-{arch}-apple-darwin.tar.gz.sha256"
+archive-prefix = "grit-{arch}-apple-darwin"
+exe-path = "grit"
+
+[platform.windows]
+download-file = "grit-{arch}-pc-windows-msvc.tar.gz"
+checksum-file = "grit-{arch}-pc-windows-msvc.tar.gz.sha256"
+archive-prefix = "grit-{arch}-pc-windows-msvc"
+exe-path = "grit.exe"
+
+[install]
+download-url = "https://github.com/getgrit/gritql/releases/download/v{version}/{download_file}"

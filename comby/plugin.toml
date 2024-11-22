@@ -1,0 +1,11 @@
+name = "comby"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/comby-tools/comby"
+
+[platform.linux]
+download-file = "comby-{version}-{arch}-linux.tar.gz"
+
+[install]
+download-url = "https://github.com/comby-tools/comby/releases/download/{version}/{download_file}"
