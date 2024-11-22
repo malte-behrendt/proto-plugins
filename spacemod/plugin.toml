@@ -1,0 +1,23 @@
+name = "spacemod"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/untitaker/spacemod"
+
+[platform.linux]
+download-file = "spacemod-{arch}-unknown-linux-gnu.tar.gz"
+archive-prefix = "spacemod-{arch}-unknown-linux-gnu"
+exe-path = "spacemod"
+
+[platform.macos]
+download-file = "spacemod-{arch}-apple-darwin.tar.gz"
+archive-prefix = "spacemod-{arch}-apple-darwin"
+exe-path = "spacemod"
+
+[platform.windows]
+download-file = "spacemod-{arch}-pc-windows-msvc.tar.gz"
+archive-prefix = "spacemod-{arch}-pc-windows-msvc"
+exe-path = "spacemod.exe"
+
+[install]
+download-url = "https://github.com/untitaker/spacemod/releases/download/v{version}/{download_file}"
