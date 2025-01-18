@@ -13,6 +13,7 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 | [comby](https://github.com/comby-tools/comby) | Code Replace | Code rewrite tool for structural search and replace that supports almost every language. | Alpha | proto plugin add comby [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/comby/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/comby/plugin.toml) |
 | [grit](https://github.com/getgrit/gritql)  | Code Replace | GritQL is a query language for searching, linting, and modifying code. | Alpha | proto plugin add grit [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/grit/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/grit/plugin.toml) |
 | [spacemod](https://github.com/untitaker/spacemod)  | Code Replace | Text search-and-replace tool optimized towards refactoring code. | Alpha | proto plugin add spacemod [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/spacemod/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/spacemod/plugin.toml) |
+| [tf-summarize](https://github.com/dineshba/tf-summarize) | IaC Visualization | A command-line utility to print the summary of the terraform plan | Alpha | proto plugin add tf-summarize [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/tf-summarize/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/tf-summarize/plugin.toml) |
 
 ## Contributing
 
@@ -24,5 +25,5 @@ PRs with new plugins are welcome!
 2. Add a `plugin.<toml|json|yaml>` file as outlined in the [official docs](https://moonrepo.dev/docs/proto/non-wasm-plugin)
 3. Manually (for now) test it:
    1. `proto plugin add <PLUGIN_NAME> source:./plugin.toml`
-   2. `proto list-remote <PLUGIN_NAME>`
+   2. `proto versions <PLUGIN_NAME>`
    3. `proto install <PLUGIN_NAME> latest`

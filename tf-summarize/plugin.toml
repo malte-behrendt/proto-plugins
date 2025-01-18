@@ -1,0 +1,27 @@
+name = "tf-summarize"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/dineshba/tf-summarize"
+
+[platform.linux]
+download-file = "tf-summarize_linux_{arch}.tar.gz"
+checksum-file = " tf-summarize_SHA256SUMS "
+
+[platform.macos]
+download-file = "tf-summarize_darwin_{arch}.tar.gz"
+checksum-file = " tf-summarize_SHA256SUMS "
+
+[platform.windows]
+download-file = "tf-summarize_windows_{arch}.zip"
+checksum-file = " tf-summarize_SHA256SUMS"
+exe-path = "tf-summarize.exe"
+
+[install]
+download-url = "https://github.com/dineshba/tf-summarize/releases/download/v{version}/{download_file}"
+
+[install.arch]
+arm = "arm"
+aarch64 = "arm64"
+x86 = "386"
+x86_64 = "amd64"
