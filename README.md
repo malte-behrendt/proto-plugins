@@ -14,6 +14,7 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 | [grit](https://github.com/getgrit/gritql)  | Code Replace | GritQL is a query language for searching, linting, and modifying code. | Alpha | proto plugin add grit [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/grit/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/grit/plugin.toml) |
 | [spacemod](https://github.com/untitaker/spacemod)  | Code Replace | Text search-and-replace tool optimized towards refactoring code. | Alpha | proto plugin add spacemod [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/spacemod/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/spacemod/plugin.toml) |
 | [tf-summarize](https://github.com/dineshba/tf-summarize) | IaC Visualization | A command-line utility to print the summary of the terraform plan | Alpha | proto plugin add tf-summarize [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/tf-summarize/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/tf-summarize/plugin.toml) |
+| popeye | IaC Linter | Scans live Kubernetes clusters and reports potential issues with deployed resources and configurations | Alpha | proto plugin add popeye [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/popeye/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/popeye/plugin.toml) |
 
 ## Contributing
 
