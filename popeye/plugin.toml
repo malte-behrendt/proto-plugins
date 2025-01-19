@@ -1,0 +1,25 @@
+name = "popeye"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/derailed/popeye"
+
+
+[platform.linux]
+download-file = "popeye_linux_{arch}.tar.gz"
+checksum-file = "checksums.sha256"
+
+[platform.macos]
+download-file = "popeye_darwin_{arch}.tar.gz"
+checksum-file = "checksums.sha256"
+
+[platform.windows]
+download-file = "popeye_windows_{arch}.tar.gz"
+checksum-file = "checksums.sha256"
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "amd64"
+
+[install]
+download-url = "https://github.com/derailed/popeye/releases/download/v{version}/{download_file}"
