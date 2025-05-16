@@ -23,6 +23,8 @@ Collection of plugins for the runtime/tool version manager [proto](https://moonr
 | [shfmt](https://github.com/mvdan/sh) | Formatter | Formats shell programs | Alpha | proto plugin add shfmt [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/shfmt/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/shfmt/plugin.toml) |
 | [Terraform](https://github.com/hashicorp/terraform) | IaC | Tool for building, changing, and versioning infrastructure | ALpha | proto plugin add terraform [https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/terraform/plugin.toml](https://raw.githubusercontent.com/malte-behrendt/proto-plugins/main/terraform/plugin.toml) |
 
+[proto-install.sh](proto-install.sh) is directly copied from [https://moonrepo.dev/install/proto.sh](https://moonrepo.dev/install/proto.sh) for having a copy of a reviewed install script version.
+
 ## Contributing
 
 PRs with new plugins are welcome!
