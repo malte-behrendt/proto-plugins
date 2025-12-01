@@ -1,0 +1,30 @@
+name = "crane"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/google/go-containerregistry"
+git-tag-pattern = "^v((?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+))"
+
+[platform.linux]
+archive-prefix = "go-containerregistry_Linux"
+download-file = "go-containerregistry_Linux_{arch}.tar.gz"
+
+[platform.macos]
+archive-prefix = "go-containerregistry_Darwin"
+download-file = "go-containerregistry_Darwin_{arch}.tar.gz"
+
+[platform.windows]
+archive-prefix = "go-containerregistry_Windows"
+download-file = "go-containerregistry_Windows_{arch}.tar.gz"
+bin-path = "crane.exe"
+
+[install]
+download-url = "https://github.com/google/go-containerregistry/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/google/go-containerregistry/releases/download/v{version}/checksums.txt"
+checksum-algo = "sha256"
+unpack = true
+bin-path = "crane"
+
+[install.arch]
+x86_64 = "x86_64"
+aarch64 = "arm64"
