@@ -1,0 +1,18 @@
+name = "umoci"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/opencontainers/umoci"
+git-tag-pattern = "^v((?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+))"
+
+[platform.linux]
+download-file = "umoci.linux.{arch}"
+
+[install]
+download-url = "https://github.com/opencontainers/umoci/releases/download/v{version}/{download_file}"
+unpack = false
+
+[install.arch]
+x86_64 = "amd64"
+x86 = "386"
+aarch64 = "arm64"
